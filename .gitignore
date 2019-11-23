@@ -1,0 +1,21 @@
+# Jupyter Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# API KEY for Google APIs
+/docs/other/API_KEY/apikey.py
+
+# Username, password for PostgreSQL
+/docs/other/config/postgres.py
+/docs/other/flask_app/postgres.py
+
+# ignore Lake_Water folder
+/docs/other/Lake_Water/
+
+# ignore env folder, pycache folder, postgres.py as well
+/docs/other/flask_app/Great_Lakes_ML-Heroku/env/
+/docs/other/flask_app/Great_Lakes_ML-Heroku/__pycache__/
+/docs/other/flask_app/Great_Lakes_ML-Heroku/postgres.py
