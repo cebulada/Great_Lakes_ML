@@ -132,7 +132,8 @@ def etl_metadata_static():
         lake = metadata_df.loc[metadata_df['station_descr']==x,\
                                         ["lake"]].head(1).values[0][0]
         overall_dict = {
-            redone_stations[index]: {
+            "station": redone_stations[index],
+            "metadata": {
                 "lake": str(lake),
                 "count": int(count[0]),
                 "date": {
@@ -264,32 +265,55 @@ def etl_param_viz(first_param, second_param):
     x = possible_columns.index(first_param)
     y = possible_columns.index(second_param)
 
-    # generate the SQLstring
-    SQL_string = f"SELECT EXTRACT(YEAR FROM {data_columns[2]}) AS YYYY, lake"
-    SQL_string += f", AVG({possible_columns[x]}) AS {possible_columns[x]}"
-    SQL_string += f", AVG({possible_columns[y]}) AS {possible_columns[y]}"
-    SQL_string += " FROM master_data GROUP BY YYYY, lake"
-    SQL_string += " ORDER BY lake, YYYY"
+    # error handling
+    if x == y:
+        # generate the SQLstring
+        SQL_string = f"SELECT EXTRACT(YEAR FROM {data_columns[2]}) AS YYYY, lake"
+        SQL_string += f", AVG({possible_columns[x]}) AS {possible_columns[x]}"
+        SQL_string += " FROM master_data GROUP BY YYYY, lake"
+        SQL_string += " ORDER BY lake, YYYY"
 
-    # get all the data in a dataframe
-    visualize_df = pd.read_sql_query(SQL_string, con=engine)
-    visualize_df.dropna(inplace=True)
+        # get all the data in a dataframe
+        visualize_df = pd.read_sql_query(SQL_string, con=engine)
+        visualize_df.dropna(inplace=True)
 
-    # generate the dictionary
-    master_list = []
-    for z in visualize_df["lake"].unique():
-        year = visualize_df.loc[visualize_df['lake']==z, ["yyyy"]]["yyyy"].tolist()
-        first_param = visualize_df.loc[visualize_df['lake']==z,\
-                                    [possible_columns[x]]][possible_columns[x]].tolist()
-        second_param = visualize_df.loc[visualize_df['lake']==z,\
-                                        [possible_columns[y]]][possible_columns[y]].tolist()
-        master_dict = {
-            z: {
-                "year": year,
-                possible_columns[x]: first_param,
-                possible_columns[y]: second_param
-                    }}
-        master_list.append(master_dict)
+        # generate the dictionary
+        master_list = {}
+        for z in visualize_df["lake"].unique():
+            year = visualize_df.loc[visualize_df['lake']==z, ["yyyy"]]["yyyy"].tolist()
+            first_param = visualize_df.loc[visualize_df['lake']==z,\
+                                        [possible_columns[x]]][possible_columns[x]].tolist()
+            master_dict = {
+                    "year": year,
+                    possible_columns[x]: first_param
+                        }
+            master_list[z] = master_dict
+    else:
+        # generate the SQLstring
+        SQL_string = f"SELECT EXTRACT(YEAR FROM {data_columns[2]}) AS YYYY, lake"
+        SQL_string += f", AVG({possible_columns[x]}) AS {possible_columns[x]}"
+        SQL_string += f", AVG({possible_columns[y]}) AS {possible_columns[y]}"
+        SQL_string += " FROM master_data GROUP BY YYYY, lake"
+        SQL_string += " ORDER BY lake, YYYY"
+
+        # get all the data in a dataframe
+        visualize_df = pd.read_sql_query(SQL_string, con=engine)
+        visualize_df.dropna(inplace=True)
+
+        # generate the dictionary
+        master_list = {}
+        for z in visualize_df["lake"].unique():
+            year = visualize_df.loc[visualize_df['lake']==z, ["yyyy"]]["yyyy"].tolist()
+            first_param = visualize_df.loc[visualize_df['lake']==z,\
+                                        [possible_columns[x]]][possible_columns[x]].tolist()
+            second_param = visualize_df.loc[visualize_df['lake']==z,\
+                                            [possible_columns[y]]][possible_columns[y]].tolist()
+            master_dict = {
+                    "year": year,
+                    possible_columns[x]: first_param,
+                    possible_columns[y]: second_param
+                        }
+            master_list[z] = master_dict
 
     # remove AWS connection
     del engine
