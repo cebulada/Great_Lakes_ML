@@ -34,7 +34,7 @@ $ python app.py
 Or
 
 ```
-$ git clone https://github.com/cebulada/TTC_Delays.git
+$ git clone https://github.com/cebulada/Great_Lakes_ML.git
 ```
 
 hen view the [index.html](./docs/index.html) file in a python server (SimpleHTTPServer).  The following command will serve a python server at port 8000.
