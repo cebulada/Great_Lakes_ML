@@ -45,7 +45,7 @@ Please read the instructions located in [EXPLANATION.md](./EXPLANATION.md).
 
 These instruction will direct you to create a local postgreSQl database, local flask server and a local python server.
 
-After performing these steps please observe [localhost:5000](https://localhost:5000/) for the API and [localhost:8000](https://localhost:5000/) for the data visualization.
+After performing these steps please observe [localhost:5000](http://localhost:5000/) for the API and [localhost:8000](http://localhost:5000/) for the data visualization.
 
 ___
 

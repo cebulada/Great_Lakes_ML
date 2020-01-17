@@ -42,7 +42,7 @@ NOTE: Make sure you include a config folder with postgres python file with your 
 ```
 $ python app.py
 ```
-### 3. Flask server will be hosted on https://localhost:5000/
+### 3. Flask server will be hosted on [localhost:5000](http://localhost:5000/)
 ### 4. Done
 ___
 
@@ -53,6 +53,6 @@ ___
 ```
 $ python -m http.server
 ```
-### 3. Python server will be hosted on https://localhost:8000/
+### 3. Python server will be hosted on [localhost:8000](http://localhost:8000/)
 ### 4. Done
 ___
