@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parameter</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_viz.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<!--BODY-->
+<body>
+<!--HEADER-->
+    <div class="header">
+        <div class='row'>
+            <div class='col-md-4'>
+                <a href="../../index.html" class="logo link">Great Lakes ML</a>
+                <a class="link" href="../../index.html"><img class="logoimg" src="../img/logo.png"></a>
+            </div>
+            <div class='col-md-8'>
+                <div class="header-right">
+                    <a class="link" href="../../index.html">Main</a>
+                    <a class="link" href="./details.html">Details</a>
+                    <a class="link" href="./leaflet_water.html">Testing Stations</a>
+                    <a class="link active" href="#">Parameter</a>
+                    <a class="link" href="./ml_input.html">ML Input</a>
+                    <a class="link" href="https://great-lakes-api.herokuapp.com/" target="_blank">API</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!--BACKGROUND-->
+    <div class="background4">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--https://www.watercanada.net/ijc-finds-increased-phosphorus-in-lake-erie-from-ont/-->
+                        <img id='data1' src="../img/lake_erie.jpg">
+
+                        &emsp; In this form please choose the lake of interest, 2 parameters and you will receive some Plot.ly visualizations.
+                    
+                        <br/> &emsp; This is an image of an algae bloom in Lake Erie due to fertilizer run-off.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-12'>
+                <div id='titleCard3'>
+                    <h5 class='parameters'>Chosen Lake: </h5>
+                    <select id="chosenLake">
+                        <option value="erie">Lake Erie</option>
+                        <option value="huron">Lake Huron</option>
+                        <option selected="selected" value="ontario">Lake Ontario</option>
+                        <option value="superior">Lake Superior</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div id='titleCard3'>
+                    <h5 class='parameters'>First Parameter: </h5>
+                    <select id="chosenParam1">
+                        <option selected="selected" value="conductivity">Water Conductivity (Unit: µS/m)</option>
+                        <option value="hardness">Water Hardness (Unit: ng/L or ppb)</option>
+                        <option value="turbidity">Water Turbidity (Unit: FTU)</option>
+                        <option value="chlorophyll">Chlorophyll A + B (Unit: ng/L or ppb)</option>
+                        <option value="ammonia">Ammonia (Unit: ng/L or ppb)</option>
+                        <option value="nitrate_ite">Nitrate and/or Nitrate (Unit: ng/L or ppb)</option>
+                        <option value="aluminum">Aluminum (Unit: ng/L or ppb)</option>
+                        <option value="barium">Barium (Unit: ng/L or ppb)</option>
+                        <option value="calcium">Calcium (Unit: ng/L or ppb)</option>
+                        <option value="carbon">Carbon (Unit: ng/L or ppb)</option>
+                        <option value="chloride">Chloride (Unit: ng/L or ppb)</option>
+                        <option value="chromium">Chromium (Unit: ng/L or ppb)</option>
+                        <option value="copper">Copper (Unit: ng/L or ppb)</option>
+                        <option value="magnesium">Magnesium (Unit: ng/L or ppb)</option>
+                        <option value="manganese">Manganese (Unit: ng/L or ppb)</option>
+                        <option value="mercury">Mercury (Unit: ng/L or ppb)</option>
+                        <option value="molybdenum">Molybdenum (Unit: ng/L or ppb)</option>
+                        <option value="phosphorus">Phosphorus (Unit: ng/L or ppb)</option>
+                        <option value="potassium">Potassium (Unit: ng/L or ppb)</option>
+                        <option value="silicon">Silicon (Unit: ng/L or ppb)</option>
+                        <option value="sodium">Sodium (Unit: ng/L or ppb)</option>
+                        <option value="strontium">Strontium (Unit: ng/L or ppb)</option>
+                        <option value="sulphate">Sulphate (Unit: ng/L or ppb)</option>
+                        <option value="vanadium">Vanadium (Unit: ng/L or ppb)</option>
+                        <option value="zinc">Zinc (Unit: ng/L or ppb)</option>
+                    </select>
+                </div>
+            </div>
+            <div class='col-md-6'>
+                <div id='titleCard3'>
+                    <h5 class='parameters'>Second Parameter: </h5>
+                    <select id="chosenParam2">
+                        <option value="conductivity">Water Conductivity (Unit: µS/m)</option>
+                        <option value="hardness">Water Hardness (Unit: ng/L or ppb)</option>
+                        <option selected="selected" value="turbidity">Water Turbidity (Unit: FTU)</option>
+                        <option value="chlorophyll">Chlorophyll A + B (Unit: ng/L or ppb)</option>
+                        <option value="ammonia">Ammonia (Unit: ng/L or ppb)</option>
+                        <option value="nitrate_ite">Nitrate and/or Nitrate (Unit: ng/L or ppb)</option>
+                        <option value="aluminum">Aluminum (Unit: ng/L or ppb)</option>
+                        <option value="barium">Barium (Unit: ng/L or ppb)</option>
+                        <option value="calcium">Calcium (Unit: ng/L or ppb)</option>
+                        <option value="carbon">Carbon (Unit: ng/L or ppb)</option>
+                        <option value="chloride">Chloride (Unit: ng/L or ppb)</option>
+                        <option value="chromium">Chromium (Unit: ng/L or ppb)</option>
+                        <option value="copper">Copper (Unit: ng/L or ppb)</option>
+                        <option value="magnesium">Magnesium (Unit: ng/L or ppb)</option>
+                        <option value="manganese">Manganese (Unit: ng/L or ppb)</option>
+                        <option value="mercury">Mercury (Unit: ng/L or ppb)</option>
+                        <option value="molybdenum">Molybdenum (Unit: ng/L or ppb)</option>
+                        <option value="phosphorus">Phosphorus (Unit: ng/L or ppb)</option>
+                        <option value="potassium">Potassium (Unit: ng/L or ppb)</option>
+                        <option value="silicon">Silicon (Unit: ng/L or ppb)</option>
+                        <option value="sodium">Sodium (Unit: ng/L or ppb)</option>
+                        <option value="strontium">Strontium (Unit: ng/L or ppb)</option>
+                        <option value="sulphate">Sulphate (Unit: ng/L or ppb)</option>
+                        <option value="vanadium">Vanadium (Unit: ng/L or ppb)</option>
+                        <option value="zinc">Zinc (Unit: ng/L or ppb)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Visualizations of the Data-->
+    <div id="bar1"></div>
+    <div id="bar2"></div>
+    <div id="bar3"></div>
+    <br/>
+    <br/>
+    <!--FOOTER-->
+    <div class='footer'>
+        <p class = "footerText">Great Lakes Machine Learning - 
+            <b><a class='linkWeb2' href='https://bootcamp.learn.utoronto.ca/data/landing/?s=Google-Unbranded&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D_GRD_Data_NonBrand_ALL_Data_Analytics_Tier1_BMM&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&&77534784899_kwd-332404801636__378030869017_g_c___dc&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&gclid=CjwKCAjw7uPqBRBlEiwAYDsr1z4xcG_dsjnksEiQ4V1xMo7ljTN7xYoFlmzE2-oJSSAWtY_X1yYnMRoCi5QQAvD_BwE&gclsrc=aw.ds'>
+            U of T School of Continuing Studies, Data Analytics Bootcamp</a></b> - 2019
+        </p>
+    </div>
+    <script type="text/javascript" src="../js/param_titles.js"></script>
+    <script type="text/javascript" src="../js/param_viz.js"></script>
+</body>
+</html>

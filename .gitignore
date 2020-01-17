@@ -5,6 +5,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
+# Remove postgres.py files
+/Jupyter_Notebooks/config/postgres.py
+/Flask_Server/config/postgres.py
+
 # API KEY for Google APIs
 /docs/other/API_KEY/apikey.py
 
@@ -16,6 +20,6 @@ __pycache__/
 /docs/other/Lake_Water/
 
 # ignore env folder, pycache folder, postgres.py as well
-/docs/other/flask_app/Great_Lakes_ML-Heroku/env/
-/docs/other/flask_app/Great_Lakes_ML-Heroku/__pycache__/
-/docs/other/flask_app/Great_Lakes_ML-Heroku/postgres.py
+/Flask_Server/Heroku_Flask_Server/env/
+/Flask_Server/Heroku_Flask_Server/__pycache__/
+/Flask_Server/Heroku_Flask_Server/postgres.py

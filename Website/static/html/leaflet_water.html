@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing Stations</title>
+
+    <!-- Leaflet CSS & JS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- Our CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_leaflet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<!--BODY-->
+<body>
+<!--HEADER-->
+    <div class="header">
+        <div class='row'>
+            <div class='col-md-4'>
+                <a href="../../index.html" class="logo link">Great Lakes ML</a>
+                <a class="link" href="../../index.html"><img class="logoimg" src="../img/logo.png"></a>
+            </div>
+            <div class='col-md-8'>
+                <div class="header-right">
+                    <a class="link" href="../../index.html">Main</a>
+                    <a class="link" href="./details.html">Details</a>
+                    <a class="link active" href="#">Testing Stations</a>
+                    <a class="link" href="./viz_water.html">Parameter</a>
+                    <a class="link" href="./ml_input.html">ML Input</a>
+                    <a class="link" href="http://localhost:5000/" target="_blank">API</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!--BACKGROUND-->
+    <div class="background3">
+    </div>
+    <!--LEAFLET MAP-->
+    <!-- The div where we will inject our map -->
+    <div id="map"></div>
+    <!--FOOTER-->
+    <div class='footer'>
+        <p class = "footerText">Great Lakes Machine Learning - 
+            <b><a class='linkWeb2' href='https://bootcamp.learn.utoronto.ca/data/landing/?s=Google-Unbranded&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D_GRD_Data_NonBrand_ALL_Data_Analytics_Tier1_BMM&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&&77534784899_kwd-332404801636__378030869017_g_c___dc&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&gclid=CjwKCAjw7uPqBRBlEiwAYDsr1z4xcG_dsjnksEiQ4V1xMo7ljTN7xYoFlmzE2-oJSSAWtY_X1yYnMRoCi5QQAvD_BwE&gclsrc=aw.ds'>
+            U of T School of Continuing Studies, Data Analytics Bootcamp</a></b> - 2019
+        </p>
+    </div>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src="../js/leaflet_station.js"></script>
+</body>
+</html>

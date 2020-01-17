@@ -1,0 +1,2048 @@
+[
+    {
+        "Amherstburg Water Treatment Plant": {
+            "lake": "erie",
+            "count": 2153,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 18
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 31
+                }
+            },
+            "coord": {
+                "latitude": 42.088387100000006,
+                "longitude": -83.1087807
+            }
+        }
+    },
+    {
+        "Union Water Supply System": {
+            "lake": "erie",
+            "count": 2107,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 1,
+                    "day": 26
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 42.1254284,
+                "longitude": -82.73812729999999
+            }
+        }
+    },
+    {
+        "Blenheim Water Treatment Plant": {
+            "lake": "erie",
+            "count": 1625,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2003,
+                    "month": 6,
+                    "day": 9
+                }
+            },
+            "coord": {
+                "latitude": 43.4958095,
+                "longitude": -79.6203429
+            }
+        }
+    },
+    {
+        "Elgin Area Primary Water Supply System": {
+            "lake": "erie",
+            "count": 2178,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 43.029227,
+                "longitude": -81.2834548
+            }
+        }
+    },
+    {
+        "Rosehill Water Treatment Plant": {
+            "lake": "erie",
+            "count": 1908,
+            "date": {
+                "min": {
+                    "year": 1978,
+                    "month": 9,
+                    "day": 5
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 42.8840931,
+                "longitude": -78.9788482
+            }
+        }
+    },
+    {
+        "Lake Erie West Basin Index Station": {
+            "lake": "erie",
+            "count": 172,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 5,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 23
+                }
+            },
+            "coord": {
+                "latitude": 41.85681,
+                "longitude": -83.09631
+            }
+        }
+    },
+    {
+        "Pointe Aux Pins - Long Term Sensing Site": {
+            "lake": "erie",
+            "count": 89,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 8,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 42.28197,
+                "longitude": -81.82817
+            }
+        }
+    },
+    {
+        "Port Stanley - Long Term Sensing Site": {
+            "lake": "erie",
+            "count": 74,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 8,
+                    "day": 13
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 42.63772,
+                "longitude": -81.18553
+            }
+        }
+    },
+    {
+        "Mid-channel At Niagara River Source": {
+            "lake": "erie",
+            "count": 79,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 8,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 11,
+                    "day": 13
+                }
+            },
+            "coord": {
+                "latitude": 42.87186,
+                "longitude": -78.93039
+            }
+        }
+    },
+    {
+        "Grand River - Long Term Sensing Site": {
+            "lake": "erie",
+            "count": 79,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 8,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 11,
+                    "day": 12
+                }
+            },
+            "coord": {
+                "latitude": 42.84067,
+                "longitude": -79.58994
+            }
+        }
+    },
+    {
+        "Nanticoke - Peacock Point - Long Term Sensing Site": {
+            "lake": "erie",
+            "count": 86,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 8,
+                    "day": 15
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 11,
+                    "day": 6
+                }
+            },
+            "coord": {
+                "latitude": 42.77497,
+                "longitude": -79.98236
+            }
+        }
+    },
+    {
+        "Long Point Bay": {
+            "lake": "erie",
+            "count": 77,
+            "date": {
+                "min": {
+                    "year": 2004,
+                    "month": 5,
+                    "day": 12
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 11,
+                    "day": 6
+                }
+            },
+            "coord": {
+                "latitude": 42.65319,
+                "longitude": -80.28483
+            }
+        }
+    },
+    {
+        "Moon Island": {
+            "lake": "huron",
+            "count": 72,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 6
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 26
+                }
+            },
+            "coord": {
+                "latitude": 45.13411,
+                "longitude": -80.08881
+            }
+        }
+    },
+    {
+        "Colchester": {
+            "lake": "erie",
+            "count": 75,
+            "date": {
+                "min": {
+                    "year": 2004,
+                    "month": 5,
+                    "day": 18
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 21
+                }
+            },
+            "coord": {
+                "latitude": 41.98306,
+                "longitude": -82.96119
+            }
+        }
+    },
+    {
+        "Fighting Island - Long Term Sensing Site": {
+            "lake": "erie",
+            "count": 94,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 5,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 21
+                }
+            },
+            "coord": {
+                "latitude": 42.19772,
+                "longitude": -83.10875
+            }
+        }
+    },
+    {
+        "Lake Erie Central Basin Near Port Crewe": {
+            "lake": "erie",
+            "count": 54,
+            "date": {
+                "min": {
+                    "year": 2010,
+                    "month": 4,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 27
+                }
+            },
+            "coord": {
+                "latitude": 42.16367,
+                "longitude": -82.14869
+            }
+        }
+    },
+    {
+        "Lower Grand River": {
+            "lake": "erie",
+            "count": 35,
+            "date": {
+                "min": {
+                    "year": 2014,
+                    "month": 5,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 11,
+                    "day": 12
+                }
+            },
+            "coord": {
+                "latitude": 42.87172,
+                "longitude": -79.57161
+            }
+        }
+    },
+    {
+        "Goderich Water Treatment Plant": {
+            "lake": "huron",
+            "count": 2119,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 43.731828,
+                "longitude": -81.72518000000001
+            }
+        }
+    },
+    {
+        "Grand Bend - Lake Huron Primary Water Supply System": {
+            "lake": "huron",
+            "count": 1603,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 5
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 17
+                }
+            },
+            "coord": {
+                "latitude": 43.3345487,
+                "longitude": -81.73842979999998
+            }
+        }
+    },
+    {
+        "Lambton Area Water Supply System": {
+            "lake": "huron",
+            "count": 2080,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 2,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 43.0008434,
+                "longitude": -82.41773979999998
+            }
+        }
+    },
+    {
+        "Big Muscamoot Bay - Long Term Sensing Site": {
+            "lake": "huron",
+            "count": 92,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 5,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 42.50158,
+                "longitude": -82.70256
+            }
+        }
+    },
+    {
+        "East - Long Term Sensing Site": {
+            "lake": "huron",
+            "count": 92,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 5,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 42.37256,
+                "longitude": -82.43261
+            }
+        }
+    },
+    {
+        "Upper End Of Stag Island - Canadian Shore - Long Term Sensing Site": {
+            "lake": "huron",
+            "count": 25,
+            "date": {
+                "min": {
+                    "year": 2001,
+                    "month": 5,
+                    "day": 2
+                },
+                "max": {
+                    "year": 2007,
+                    "month": 4,
+                    "day": 23
+                }
+            },
+            "coord": {
+                "latitude": 42.89728,
+                "longitude": -82.45747
+            }
+        }
+    },
+    {
+        "Pt Au Baril \"new\"": {
+            "lake": "huron",
+            "count": 72,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 7,
+                    "day": 31
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 45.54181,
+                "longitude": -80.42816
+            }
+        }
+    },
+    {
+        "French River - Offshore Of Mouth": {
+            "lake": "huron",
+            "count": 69,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 7,
+                    "day": 31
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 21
+                }
+            },
+            "coord": {
+                "latitude": 45.91331,
+                "longitude": -80.91628
+            }
+        }
+    },
+    {
+        "South Bay Mouth-more Precise Position Recorded - May 1995": {
+            "lake": "huron",
+            "count": 74,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 7,
+                    "day": 30
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 22
+                }
+            },
+            "coord": {
+                "latitude": 45.57467,
+                "longitude": -82.00522
+            }
+        }
+    },
+    {
+        "Parry Sound Harbour - More Precise Position Recorded With Dgps - August 1996": {
+            "lake": "huron",
+            "count": 76,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 3
+                }
+            },
+            "coord": {
+                "latitude": 45.33628,
+                "longitude": -80.0605
+            }
+        }
+    },
+    {
+        "Parry Sound - Outer Harbour": {
+            "lake": "huron",
+            "count": 72,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 45.33686,
+                "longitude": -80.28164
+            }
+        }
+    },
+    {
+        "Parry Sound Hay Bay Enterance \"new\"": {
+            "lake": "huron",
+            "count": 76,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 1
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 19
+                }
+            },
+            "coord": {
+                "latitude": 45.33986,
+                "longitude": -80.06461
+            }
+        }
+    },
+    {
+        "Go Home Bay \"new\"": {
+            "lake": "huron",
+            "count": 73,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 6
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 26
+                }
+            },
+            "coord": {
+                "latitude": 44.98463,
+                "longitude": -79.974
+            }
+        }
+    },
+    {
+        "Severn Sound - Sw Of Snake Island More P Recise Position Recorded With Dgps 08-96": {
+            "lake": "huron",
+            "count": 77,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 7
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 27
+                }
+            },
+            "coord": {
+                "latitude": 44.78897,
+                "longitude": -79.85036
+            }
+        }
+    },
+    {
+        "Nottawasaga River \"new\"": {
+            "lake": "huron",
+            "count": 67,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 8
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 27
+                }
+            },
+            "coord": {
+                "latitude": 44.60303,
+                "longitude": -80.07108
+            }
+        }
+    },
+    {
+        "Collingwood - 4.5km Offshore": {
+            "lake": "huron",
+            "count": 74,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 8
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 10,
+                    "day": 27
+                }
+            },
+            "coord": {
+                "latitude": 44.55236,
+                "longitude": -80.24992
+            }
+        }
+    },
+    {
+        "Owen Sound - Mid-bay": {
+            "lake": "huron",
+            "count": 75,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 2
+                }
+            },
+            "coord": {
+                "latitude": 44.60308,
+                "longitude": -80.92719
+            }
+        }
+    },
+    {
+        "Wiarton - North End Of Colpoys Bay - West Side Of White Cloud Island": {
+            "lake": "huron",
+            "count": 73,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 2
+                }
+            },
+            "coord": {
+                "latitude": 44.83469,
+                "longitude": -80.98819
+            }
+        }
+    },
+    {
+        "Stokes Bay Wgs-84 - Real-time Dgps - +or- 5m Accuracy": {
+            "lake": "huron",
+            "count": 73,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 15
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 44.97042,
+                "longitude": -81.41006
+            }
+        }
+    },
+    {
+        "Tobermory \"new\"": {
+            "lake": "huron",
+            "count": 74,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 20
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 45.2999,
+                "longitude": -81.69991
+            }
+        }
+    },
+    {
+        "Cape Ipperwash Wgs-84 - Post-op Differentially Corr.": {
+            "lake": "huron",
+            "count": 71,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 12
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 43.25778,
+                "longitude": -82.02392
+            }
+        }
+    },
+    {
+        "Goderich-more Precise Position Recorded With Dgps August 1995": {
+            "lake": "huron",
+            "count": 66,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 13
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 3
+                }
+            },
+            "coord": {
+                "latitude": 43.74911,
+                "longitude": -81.73783
+            }
+        }
+    },
+    {
+        "Kincardine - Index Stn (water Stn Only)": {
+            "lake": "huron",
+            "count": 72,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 19
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 3
+                }
+            },
+            "coord": {
+                "latitude": 44.18356,
+                "longitude": -81.71614
+            }
+        }
+    },
+    {
+        "Southampton Wgs-84 - Real-time Dgps - +or- 5m Accuracy": {
+            "lake": "huron",
+            "count": 77,
+            "date": {
+                "min": {
+                    "year": 2002,
+                    "month": 8,
+                    "day": 20
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 11,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 44.51417,
+                "longitude": -81.38253
+            }
+        }
+    },
+    {
+        "Spanish River": {
+            "lake": "huron",
+            "count": 39,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 6
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 3
+                }
+            },
+            "coord": {
+                "latitude": 46.17331,
+                "longitude": -82.39219
+            }
+        }
+    },
+    {
+        "South Of Eagle Island": {
+            "lake": "huron",
+            "count": 38,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 6
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 46.09856,
+                "longitude": -82.28664
+            }
+        }
+    },
+    {
+        "St. Clair River - South End Of Stag Island": {
+            "lake": "huron",
+            "count": 28,
+            "date": {
+                "min": {
+                    "year": 2007,
+                    "month": 4,
+                    "day": 23
+                },
+                "max": {
+                    "year": 2014,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 42.86336,
+                "longitude": -82.46633
+            }
+        }
+    },
+    {
+        "Sediment Survey-owen Sound Harbour Just South Of Harbour Mouth": {
+            "lake": "huron",
+            "count": 4,
+            "date": {
+                "min": {
+                    "year": 2009,
+                    "month": 10,
+                    "day": 20
+                },
+                "max": {
+                    "year": 2009,
+                    "month": 10,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 44.58028,
+                "longitude": -80.93889
+            }
+        }
+    },
+    {
+        "Goderich Harbour Entrance": {
+            "lake": "huron",
+            "count": 7,
+            "date": {
+                "min": {
+                    "year": 2015,
+                    "month": 9,
+                    "day": 3
+                },
+                "max": {
+                    "year": 2015,
+                    "month": 9,
+                    "day": 3
+                }
+            },
+            "coord": {
+                "latitude": 43.74614,
+                "longitude": -81.73708
+            }
+        }
+    },
+    {
+        "South Peel - Lakeview Water Treatement Plant": {
+            "lake": "ontario",
+            "count": 2987,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 1,
+                    "day": 26
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 31
+                }
+            },
+            "coord": {
+                "latitude": 43.5700564,
+                "longitude": -79.5602533
+            }
+        }
+    },
+    {
+        "Kingston - King Street Water Treatment Plant": {
+            "lake": "ontario",
+            "count": 2119,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 1,
+                    "day": 26
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 44.221405100000005,
+                "longitude": -76.50257839999998
+            }
+        }
+    },
+    {
+        "Toronto - R. L. Clark Water Treatment Plant": {
+            "lake": "ontario",
+            "count": 1679,
+            "date": {
+                "min": {
+                    "year": 1979,
+                    "month": 9,
+                    "day": 18
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 31
+                }
+            },
+            "coord": {
+                "latitude": 43.5935156,
+                "longitude": -79.51946720000001
+            }
+        }
+    },
+    {
+        "Grimsby Water Treatment Plant": {
+            "lake": "ontario",
+            "count": 1673,
+            "date": {
+                "min": {
+                    "year": 1980,
+                    "month": 10,
+                    "day": 6
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 43.2060217,
+                "longitude": -79.58691309999998
+            }
+        }
+    },
+    {
+        "Cobourg Water Treatment Plant": {
+            "lake": "ontario",
+            "count": 1694,
+            "date": {
+                "min": {
+                    "year": 1980,
+                    "month": 10,
+                    "day": 27
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 43.9620883,
+                "longitude": -78.12473580000002
+            }
+        }
+    },
+    {
+        "Brockville Water Treatment Plant": {
+            "lake": "ontario",
+            "count": 1974,
+            "date": {
+                "min": {
+                    "year": 1976,
+                    "month": 1,
+                    "day": 27
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 44.6176543,
+                "longitude": -75.6943568
+            }
+        }
+    },
+    {
+        "Humber Bay": {
+            "lake": "ontario",
+            "count": 86,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 8
+                }
+            },
+            "coord": {
+                "latitude": 43.62331,
+                "longitude": -79.44681
+            }
+        }
+    },
+    {
+        "Toronto Inner Harbour - 1976 Pdgps": {
+            "lake": "ontario",
+            "count": 86,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 9
+                }
+            },
+            "coord": {
+                "latitude": 43.63158,
+                "longitude": -79.36994
+            }
+        }
+    },
+    {
+        "Offshore From Oakville (wgs-84)": {
+            "lake": "ontario",
+            "count": 88,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 17
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 8
+                }
+            },
+            "coord": {
+                "latitude": 43.42581,
+                "longitude": -79.66067
+            }
+        }
+    },
+    {
+        "Centre Of Open Harbour": {
+            "lake": "ontario",
+            "count": 88,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 17
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 7
+                }
+            },
+            "coord": {
+                "latitude": 43.28881,
+                "longitude": -79.83625
+            }
+        }
+    },
+    {
+        "Six Mile Creek": {
+            "lake": "ontario",
+            "count": 81,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 18
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 6
+                }
+            },
+            "coord": {
+                "latitude": 43.31986,
+                "longitude": -78.97853
+            }
+        }
+    },
+    {
+        "Port Dalhousie": {
+            "lake": "ontario",
+            "count": 86,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 18
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 6
+                }
+            },
+            "coord": {
+                "latitude": 43.22772,
+                "longitude": -79.28328
+            }
+        }
+    },
+    {
+        "Stoney Creek": {
+            "lake": "ontario",
+            "count": 91,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 23
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 14
+                }
+            },
+            "coord": {
+                "latitude": 43.26819,
+                "longitude": -79.67111
+            }
+        }
+    },
+    {
+        "Offshore From Town Of Newcastle (wgs-84)": {
+            "lake": "ontario",
+            "count": 92,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 24
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 15
+                }
+            },
+            "coord": {
+                "latitude": 43.88019,
+                "longitude": -78.56128
+            }
+        }
+    },
+    {
+        "Presquile": {
+            "lake": "ontario",
+            "count": 37,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 24
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 19
+                }
+            },
+            "coord": {
+                "latitude": 44.01517,
+                "longitude": -77.70864
+            }
+        }
+    },
+    {
+        "Trenton Pdgps": {
+            "lake": "ontario",
+            "count": 59,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 25
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 10,
+                    "day": 31
+                }
+            },
+            "coord": {
+                "latitude": 44.08831,
+                "longitude": -77.54383
+            }
+        }
+    },
+    {
+        "Prescott": {
+            "lake": "ontario",
+            "count": 38,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 25
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 2
+                }
+            },
+            "coord": {
+                "latitude": 44.69839,
+                "longitude": -75.5315
+            }
+        }
+    },
+    {
+        "Lake St. Francis": {
+            "lake": "ontario",
+            "count": 75,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 26
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 1
+                }
+            },
+            "coord": {
+                "latitude": 45.13672,
+                "longitude": -74.41608
+            }
+        }
+    },
+    {
+        "Pickering - Offshore": {
+            "lake": "ontario",
+            "count": 89,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 29
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 14
+                }
+            },
+            "coord": {
+                "latitude": 43.79361,
+                "longitude": -79.085
+            }
+        }
+    },
+    {
+        "Prince Edward Point Transect #23 - 20 Meters": {
+            "lake": "ontario",
+            "count": 88,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 30
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 43.95792,
+                "longitude": -76.81169
+            }
+        }
+    },
+    {
+        "North Channel West Of Kingston": {
+            "lake": "ontario",
+            "count": 93,
+            "date": {
+                "min": {
+                    "year": 2000,
+                    "month": 5,
+                    "day": 30
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 44.18069,
+                "longitude": -76.73514
+            }
+        }
+    },
+    {
+        "Chub Point": {
+            "lake": "ontario",
+            "count": 67,
+            "date": {
+                "min": {
+                    "year": 2006,
+                    "month": 5,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 16
+                }
+            },
+            "coord": {
+                "latitude": 43.95333,
+                "longitude": -78.01236
+            }
+        }
+    },
+    {
+        "Mcdonell Bay": {
+            "lake": "ontario",
+            "count": 46,
+            "date": {
+                "min": {
+                    "year": 2006,
+                    "month": 5,
+                    "day": 23
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 20
+                }
+            },
+            "coord": {
+                "latitude": 44.23428,
+                "longitude": -76.37458
+            }
+        }
+    },
+    {
+        "Etobicoke": {
+            "lake": "ontario",
+            "count": 51,
+            "date": {
+                "min": {
+                    "year": 2006,
+                    "month": 4,
+                    "day": 28
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 43.57272,
+                "longitude": -79.51594
+            }
+        }
+    },
+    {
+        "12 Mile Creek Sediment Survey": {
+            "lake": "ontario",
+            "count": 2,
+            "date": {
+                "min": {
+                    "year": 2010,
+                    "month": 4,
+                    "day": 15
+                },
+                "max": {
+                    "year": 2010,
+                    "month": 4,
+                    "day": 15
+                }
+            },
+            "coord": {
+                "latitude": 43.21944,
+                "longitude": -79.25167
+            }
+        }
+    },
+    {
+        "Wq Mapping Grimsby (not Used); Re-issue For 2012 Index; Lake Ontario Offshore From Port Credit(water Station)": {
+            "lake": "ontario",
+            "count": 33,
+            "date": {
+                "min": {
+                    "year": 2012,
+                    "month": 5,
+                    "day": 3
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 11,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 43.54231,
+                "longitude": -79.569
+            }
+        }
+    },
+    {
+        "Lake Ontario Mapping Station 2012 - Oshawa Area": {
+            "lake": "ontario",
+            "count": 1,
+            "date": {
+                "min": {
+                    "year": 2012,
+                    "month": 8,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2012,
+                    "month": 8,
+                    "day": 16
+                }
+            },
+            "coord": {
+                "latitude": 43.85967,
+                "longitude": -78.75178
+            }
+        }
+    },
+    {
+        "Terrace Bay Water Treatment Plant": {
+            "lake": "superior",
+            "count": 1964,
+            "date": {
+                "min": {
+                    "year": 1979,
+                    "month": 5,
+                    "day": 28
+                },
+                "max": {
+                    "year": 2013,
+                    "month": 12,
+                    "day": 30
+                }
+            },
+            "coord": {
+                "latitude": 48.790110600000006,
+                "longitude": -87.09633240000001
+            }
+        }
+    },
+    {
+        "Nipigon Bay Wgs84 Tr-dgps Ws 14.2m": {
+            "lake": "superior",
+            "count": 40,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 13
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 10
+                }
+            },
+            "coord": {
+                "latitude": 48.93061,
+                "longitude": -88.19569
+            }
+        }
+    },
+    {
+        "Rossport Bay Wgs84 Tr-dgps Ws 25.2m": {
+            "lake": "superior",
+            "count": 38,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 12
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 10
+                }
+            },
+            "coord": {
+                "latitude": 48.82983,
+                "longitude": -87.51789
+            }
+        }
+    },
+    {
+        "Jackfish Bay Wgs84 Rt-dgps Ws 17.7m": {
+            "lake": "superior",
+            "count": 46,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 12
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 9
+                }
+            },
+            "coord": {
+                "latitude": 48.80289,
+                "longitude": -86.98494
+            }
+        }
+    },
+    {
+        "Penninsula Harbour Wgs84 Rt-dgps Ws 19.6m": {
+            "lake": "superior",
+            "count": 35,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 11
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 9
+                }
+            },
+            "coord": {
+                "latitude": 48.74564,
+                "longitude": -86.41708
+            }
+        }
+    },
+    {
+        "Otter Head Wgs84 Trimble Se 26.1m": {
+            "lake": "superior",
+            "count": 33,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 11
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 7
+                }
+            },
+            "coord": {
+                "latitude": 48.10158,
+                "longitude": -86.03397
+            }
+        }
+    },
+    {
+        "Michipicoten Bay - Index Station": {
+            "lake": "superior",
+            "count": 41,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 6
+                }
+            },
+            "coord": {
+                "latitude": 47.94232,
+                "longitude": -84.85644
+            }
+        }
+    },
+    {
+        "Warp Bay Wgs84 Trimble Xp-pro 17.0m": {
+            "lake": "superior",
+            "count": 37,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 9
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 47.58464,
+                "longitude": -85.00761
+            }
+        }
+    },
+    {
+        "Goulais Bay Wgs84 Rt-dgps Ws 18.2m": {
+            "lake": "superior",
+            "count": 33,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 8
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 46.71936,
+                "longitude": -84.48647
+            }
+        }
+    },
+    {
+        "Smd 5.0 : Brush Point To Point Aux Pins Bay Wgs84 Rt-dgps Ws 4.1m": {
+            "lake": "superior",
+            "count": 23,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 8
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 5
+                }
+            },
+            "coord": {
+                "latitude": 46.49372,
+                "longitude": -84.46561
+            }
+        }
+    },
+    {
+        "North End Of Lake George": {
+            "lake": "superior",
+            "count": 45,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 7
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 46.48628,
+                "longitude": -84.11642
+            }
+        }
+    },
+    {
+        "St. Joseph Channel Wgs84 Rt-dgps Ws 4.1": {
+            "lake": "superior",
+            "count": 35,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 7
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 46.30031,
+                "longitude": -84.03492
+            }
+        }
+    },
+    {
+        "Sturgeon Bay Wgs84 Trimble Xp-pro": {
+            "lake": "superior",
+            "count": 40,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 11
+                }
+            },
+            "coord": {
+                "latitude": 48.52814,
+                "longitude": -88.44633
+            }
+        }
+    },
+    {
+        "Welcome Island Wgs84 Tr-dgps Se 17.1m": {
+            "lake": "superior",
+            "count": 37,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 12
+                }
+            },
+            "coord": {
+                "latitude": 48.36694,
+                "longitude": -89.15592
+            }
+        }
+    },
+    {
+        "Flatland Island Wgs84 Tr-dgps Se 7.4m": {
+            "lake": "superior",
+            "count": 37,
+            "date": {
+                "min": {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 14
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 12
+                }
+            },
+            "coord": {
+                "latitude": 48.21194,
+                "longitude": -89.26333
+            }
+        }
+    },
+    {
+        "Old Vessel Point": {
+            "lake": "superior",
+            "count": 3,
+            "date": {
+                "min": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 4
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 4
+                }
+            },
+            "coord": {
+                "latitude": 46.50306,
+                "longitude": -84.40833
+            }
+        }
+    },
+    {
+        "Mckellar Harbour": {
+            "lake": "superior",
+            "count": 25,
+            "date": {
+                "min": {
+                    "year": 2011,
+                    "month": 5,
+                    "day": 12
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 9
+                }
+            },
+            "coord": {
+                "latitude": 48.80131,
+                "longitude": -86.70594
+            }
+        }
+    },
+    {
+        "Outer Nipigon Bay": {
+            "lake": "superior",
+            "count": 24,
+            "date": {
+                "min": {
+                    "year": 2011,
+                    "month": 5,
+                    "day": 13
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 10
+                }
+            },
+            "coord": {
+                "latitude": 48.87128,
+                "longitude": -87.95314
+            }
+        }
+    },
+    {
+        "Black Bay": {
+            "lake": "superior",
+            "count": 22,
+            "date": {
+                "min": {
+                    "year": 2011,
+                    "month": 5,
+                    "day": 16
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 11
+                }
+            },
+            "coord": {
+                "latitude": 48.60161,
+                "longitude": -88.52294
+            }
+        }
+    },
+    {
+        "Big Trout Bay": {
+            "lake": "superior",
+            "count": 20,
+            "date": {
+                "min": {
+                    "year": 2011,
+                    "month": 5,
+                    "day": 15
+                },
+                "max": {
+                    "year": 2011,
+                    "month": 10,
+                    "day": 12
+                }
+            },
+            "coord": {
+                "latitude": 48.05208,
+                "longitude": -89.47153
+            }
+        }
+    }
+]

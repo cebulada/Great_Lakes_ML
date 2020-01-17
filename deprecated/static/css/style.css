@@ -1,0 +1,460 @@
+/*  
+    Go to this link for this template for resetting CSS
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /* Positioning */
+  margin: 0;
+  vertical-align: baseline;
+  /* Box-model */
+  padding: 0;
+  /* Typography */
+  font-size: 100%;
+  font: inherit;
+  /* Visual */
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section { display: block; }
+
+body { line-height: 1; }
+
+ol,
+ul { list-style: none; }
+
+blockquote,
+q { quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  /* Misc */
+  content: '';
+  content: none;
+}
+
+table {
+  /* Visual */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {box-sizing: border-box;}
+
+/*******Reset all Formatting Above*******/
+
+/*******CSS Starts Here Below*******/
+
+.background1 { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    position: fixed;
+}
+
+.background2 { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/10.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    position: fixed;
+}
+
+.background3 { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    position: fixed;
+}
+
+.background4 { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    position: fixed;
+}
+
+.background5 { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/12.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    position: fixed;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 10px;
+}
+  
+.header .link {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+.header .logo .link {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header .active {
+    background-color: #000099;
+    color: white;
+}
+
+.header .link:hover {
+    background-color: #9999ff;
+    color: #ffffff;
+}
+  
+.header-right {
+    float: right;
+}
+
+.logoimg {
+    width: 38px;
+    height: 20px;
+    z-index: 1;
+}
+
+#titleCard1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    line-height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#titleCard2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#titleCard3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    line-height: 36px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#titleCard4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    line-height: 36px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#mainTitle {
+    font-size: 30px;
+    text-align: center;
+    color: #000099;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    opacity: 1;
+}
+
+.profile {
+    float: left;
+    max-width:40%;
+    padding: 10px 10px;
+}
+
+#data1 {
+    float: left;
+    max-width:50%;
+    padding: 10px 10px;
+}
+
+#data2 {
+    float: right;
+    max-width:50%;
+    padding: 10px 10px;
+}
+
+.profileText {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#explanation {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.linkWeb {
+    color: black;
+}
+
+.linkWeb2 {
+    color: white;
+}
+
+#quotation {
+    display:inline;
+    color:black;
+    font-size: 24px;
+    text-align: center;
+}
+
+.parameters {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#chosenLake {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#selectLake {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#submitLake {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#guessLake, #chosenModel {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#con01, #har02, #tur03, #chl04, #amm05, #nit06, #alu07, #bar08, #cal09, #car10, #chl11, 
+#chr12, #cop13, #mag14, #man15, #mer16, #mol17, #pho18, #pot19, #sil20, #sod21, #str22,
+#sul23, #van24, #zin25{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#chosenParam1 {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#chosenParam2 {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header .link {
+      float: left;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: left;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000099;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+  
+.footerText {
+    margin-bottom: 10px;
+}

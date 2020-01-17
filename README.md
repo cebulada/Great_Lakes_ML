@@ -7,47 +7,45 @@
 
 ___
 
-## Version 1.0.0
+## Version 1.1.0
+
+### Version 1.1.0 - Changes
+
+Removed cloud functionality due to rising price concerns.
+
+Local postgreSQL database, local flask server and local python server are now required to operate the API and Data Visualization website.
+
+___
+
+## Summary
+
+After a long day of work you come home and you pour yourself a nice glass of water from your tap.  Before you drink you see an advisory stating that Lake Erie has higher than normal level of toxic algae and preventative measures need to be taken.
+
+You are in Toronto so surely the water from the tap must be from Lake Ontario but how can you be sure.
+
+The goal of this project was to see if machine learning algorithms can correctly classify the water source to one of the 4 great lakes by 25 parameters found in 2 datasets recovered from [Open Data Catalogue Ontario](https://data.ontario.ca/).
+
+Please view [EXPLANATION.md](./EXPLANATION.md) for more in depth information as to how to set up local database, local flask server and local python server.
 
 ___
 
 ## Getting Started / Installation
 
-View this [website](https://cebulada.github.io/Great_Lakes_ML/) for a summary of findings and this [API](https://great-lakes-api.herokuapp.com/) for custom queries
-
-Or
-
 Download the compressed [GitHub Repository](https://github.com/cebulada/Great_Lakes_ML.git)
 
-Then view the [index.html](./docs/index.html) file in a python server (SimpleHTTPServer).  The following command will serve a python server at port 8000.
-
-```
-$ python -m http.server
-```
-
-Run the [app.py](./docs/other/flask_app/app.py) file to start a Flask Appplication.  The following command will server a flask application at port 5000.
-
-```
-$ python app.py
-```
-
-Or
+OR
 
 ```
 $ git clone https://github.com/cebulada/Great_Lakes_ML.git
 ```
 
-hen view the [index.html](./docs/index.html) file in a python server (SimpleHTTPServer).  The following command will serve a python server at port 8000.
+THEN
 
-```
-$ python -m http.server
-```
+Please read the instructions located in [EXPLANATION.md](./EXPLANATION.md).
 
-Run the [app.py](./docs/other/flask_app/app.py) file to start a Flask Appplication.  The following command will server a flask application at port 5000.
+These instruction will direct you to create a local postgreSQl database, local flask server and a local python server.
 
-```
-$ python app.py
-```
+After performing these steps please observe [localhost:5000](https://localhost:5000/) for the API and [localhost:8000](https://localhost:5000/) for the data visualization.
 
 ___
 
@@ -62,7 +60,7 @@ ___
 ### 4. Install Scientific Python Distribution ([Instructions](https://www.scipy.org/install.html))
 #### Specifically pandas, NumPy and Matplotlib
 
-### 5. Install the following dependencies in [requirements.txt](./docs/other/flask_app/requirements.txt). Use [pip](https://pypi.org/) or [conda](https://docs.conda.io/en/latest/)
+### 5. Install the following dependencies in [requirements.txt](./requirements.txt). Use [pip](https://pypi.org/) or [conda](https://docs.conda.io/en/latest/)
 
 ___
 
@@ -74,6 +72,6 @@ ___
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](./LICENSE.md) file for details
 
 ___

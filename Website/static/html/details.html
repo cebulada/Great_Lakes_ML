@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+</head>
+<!--BODY-->
+<body>
+<!--HEADER-->
+    <div class="header">
+        <div class='row'>
+            <div class='col-md-4'>
+                <a href="../../index.html" class="logo link">Great Lakes ML</a>
+                <a class="link" href="../../index.html"><img class="logoimg" src="../img/logo.png"></a>
+            </div>
+            <div class='col-md-8'>
+                <div class="header-right">
+                    <a class="link" href="../../index.html">Main</a>
+                    <a class="link active" href="#">Details</a>
+                    <a class="link" href="./leaflet_water.html">Testing Stations</a>
+                    <a class="link" href="./viz_water.html">Parameter</a>
+                    <a class="link" href="./ml_input.html">ML Input</a>
+                    <a class="link" href="http://localhost:5000/" target="_blank">API</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!--BACKGROUND-->
+    <div class="background2">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <q id="quotation">
+                        “Thousands have lived without love, not one without water.” by W.H. Auden
+                    </q>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--https://en.wikipedia.org/wiki/Great_Lakes-->
+                        <img class='profile' src="../img/great_lakes2.png">
+                        &emsp; In this project we used Machine Learning Models from Scikit Learn and Keras Neural Nets to predict what Great Lake could potentially be the source of a water sample based on samples collected by the Ontario Government.
+
+                        These machine learning models can then be saved and applied to any unknown samples to classify them to 1 of the 4 Great Lakes Ontario has access to; Lake Superior, Lake Huron, Lake Erie and Lake Ontario.
+                        
+                        <br/> &emsp; The first thing that needed to be done was to download the excel files from the <b><a class='linkWeb' href="https://www.ontario.ca/search/data-catalogue" target="_blank">Ontario Data Catalogue</a></b>.
+
+                        Our group discovered 2 data sources in which machine learning models can be generated; The <b><a class='linkWeb' href="https://www.ontario.ca/data/lake-water-quality-drinking-water-intakes" target="_blank">first</a></b> and <b><a class='linkWeb' href="https://www.ontario.ca/data/water-chemistry-great-lakes-nearshore-areas" target="_blank">second</a></b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--From Excel Files-->
+                        <img id='data1' src="../img/data1.jpg">
+                        <img id='data2' src="../img/data2.jpg">
+
+                        &emsp; These are 2 slices from the 2 data sources.  As you can see the data is in a journal format; where for a given date, time and location samples were taken and analyzed for the following analytes.
+
+                        The analyte is in a string format (with some spelling mistakes) with a decimal value and various units.  There are over 300,000 entries.
+
+                        The data analyst will need to find a way to convert the labels to a series of unique parameters and standardize on the unit.
+
+                        <br/> &emsp; The first step was to import the excel books and sheets into pandas dataframes and concatenate them with equivalent columns.
+
+                        The second step was to pivot the pandas dataframe on the analyte name; this results in >50% of null values in the dataframe.
+
+                        These null values are unavoidable as samples to be analyzed will be sent for only specific analytes and not all of them do the variety of scientific methods needed for specific analyte measurements.
+
+                        These null values can be handled by Scikit Learn's <b><a class='linkWeb' href='https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html'>SimpleImputer</a></b>.
+
+                        SimpleImputer fills the missing values with the means across the column.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--From Excel Files-->
+                        <img id='data1' src="../img/Scikit_learn_logo_small.svg">
+                        <img id='data2' src="../img/keras-tensorflow-logo.jpg">
+
+                        &emsp; 3 models were applied from the Scikit Learn Python library and 1 Deep Neural Net model from TensorFlow Keras Python library:
+
+                        <br/>
+
+                        1. <b><a class='linkWeb' href='https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html'>K Nearest Neighbours</a></b>
+
+                        <br/>
+
+                        2. <b><a class='linkWeb' href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html'>Gradient Boosting Classifier</a></b>
+
+                        <br/>
+
+                        3. <b><a class='linkWeb' href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'>Random Forest Classifier</a></b>
+
+                        <br/>
+
+                        4. <b><a class='linkWeb' href='https://www.tensorflow.org/api_docs/python/tf'>Deep Neural Net from TensorFlow with Keras Backend</a></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--From Excel Files-->
+                        <img id='data1' src="../img/knn.png">
+
+                        &emsp; The first model explored was K Nearest Neighbours.
+
+                        The following graph is the Training Data F1 score and Testing Data F1 score on different k values.
+
+                        k is the number of closest neighbours needed for classification of a data point.
+
+                        In this case the classification is of 1 of 4 groups; the 4 Great Lakes.
+
+                        <br/> &emsp; The model used in the API has a k value of 9 because it provides >86% F1 score.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--From Excel Files-->
+                        <img id='data1' src="../img/rf.png">
+
+                        &emsp; The second model explored was the Random Forest Classifier.
+
+                        The following graph is the Training Data F1 score and Testing Data F1 score on different estimator values.
+
+                        The number of estimators is a number of decision trees to classify the data.
+
+                        In this case the classification is of 1 of 4 groups; the 4 Great Lakes.
+
+                        <br/> &emsp; The model used in the API has an estimator value of 100 because it provides ~90% F1 score.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3' class='clearfix'>
+                    <p id="explanation">
+                        <!--From Excel Files-->
+                        <img id='data1' src="../img/deep_neural_num_hidden.png">
+                        <img id='data2' src="../img/deep_neural_num_epoch.png">
+
+                        &emsp; The third model explored was a Deep Neural Net.
+
+                        The following 2 graphs shows the Accuracy and Loss for the Training and Testing Data sets for a number of hidden layer and for a number of epochs.
+
+                        There are 25 input nodes, 4 output nodes and each hidden layer will have 18 nodes.
+
+                        First the number of hidden nodes was selected to be 18 as 2/3 of the number of input nodes.
+
+                        Second the number of hidden layers was determined by experimentation; 7 hidden layers.
+
+                        Third the number of epochs was determined by experimentation and by time constraints; 1000 epochs.
+
+                        <br/> &emsp; The model used in the API has 25 input nodes, 4 output nodes and 7 hidden layers of 18 nodes over 1000 epochs which provides ~90% F1 score.
+
+                        <br/> &emsp; The last model, Gradient Boosting Classifier, was run using default values and gave a ~90% F1 score.
+
+                        <br/> &emsp; Select the model below and recieve F1 scores for the 4 lakes and a weighted average.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-12'>
+                <div id='titleCard3'>
+                    <h5 class='parameters'>Chosen Model: </h5>
+                    <select id="chosenModel">
+                        <option selected="selected" value="Random_Forest">Random Forest Classifier</option>
+                        <option value="K_Nearest_Neighbours">K Nearest Neighbours</option>
+                        <option value="Gradient_Boosting_Classifier">Gradient Boosting Classifier</option>
+                        <option value="Deep_Neural_Net">Deep Neural Net</option>
+                    </select>
+                </div>
+                <div id='titleCard4'></div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <!--FOOTER-->
+    <div class='footer'>
+        <p class = "footerText">Great Lakes Machine Learning - 
+            <b><a class='linkWeb2' href='https://bootcamp.learn.utoronto.ca/data/landing/?s=Google-Unbranded&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D_GRD_Data_NonBrand_ALL_Data_Analytics_Tier1_BMM&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&&77534784899_kwd-332404801636__378030869017_g_c___dc&pkw=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&pcrid=378030869017&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=&utm_term=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&utm_content=378030869017&s=google&k=%2Bdata%20%2Banalytics%20%2Bboot%20%2Bcamp&gclid=CjwKCAjw7uPqBRBlEiwAYDsr1z4xcG_dsjnksEiQ4V1xMo7ljTN7xYoFlmzE2-oJSSAWtY_X1yYnMRoCi5QQAvD_BwE&gclsrc=aw.ds'>
+            U of T School of Continuing Studies, Data Analytics Bootcamp</a></b> - 2019
+        </p>
+    </div>
+    <script type="text/javascript" src="../js/f1_score.js"></script>
+</body>
+</html>
